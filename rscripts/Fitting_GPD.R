@@ -2,6 +2,8 @@ library(evmix)
 
 data_folder <- "C:/Users/anubhab.biswas/OneDrive - SUPSI/Documenti/"
 D <- as.matrix(read.csv(paste0(data_folder,"STXGCN/Data/PM25_Daily_Data.csv")))
+result_folder <- paste0(data_folder,"STXGCN/results/")
+
 
 fit_pot_estimates <- function(train, u, name_month = "DEC", pollutant = "PM25"){
   stopifnot(is.matrix(train))
@@ -17,7 +19,7 @@ fit_pot_estimates <- function(train, u, name_month = "DEC", pollutant = "PM25"){
     
   }
   df=data.frame(cbind(alpha,sig))
-  write.csv(df,paste0(data_folder,"STXGCN/Data/","PoT_Estimates_",name_month, "_" ,pollutant ,".csv"))
+  write.csv(df,paste0(result_folder,"PoT_Estimates_",name_month, "_" ,pollutant ,".csv"))
 }
 
 
@@ -36,7 +38,4 @@ u_pm25 <- 60
 for(j in seq(n_months)){
   fit_pot_estimates(training_data[[j]], u_pm25, name_month = names_of_months[j], pollutant = "PM25")
 }
-
-
-
 
