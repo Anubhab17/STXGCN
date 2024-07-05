@@ -1,5 +1,9 @@
 # STXGCN
 
+R Libraries required:
+```evmix```, ```forecast```, ``````
+
+Python libraries required are listed in the ```requirements.txt``` file.
 # Folders
 
 ```data``` contains the cleaned data of the air pollutants along with their locations and the Haversine matrix.
