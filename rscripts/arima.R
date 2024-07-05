@@ -14,7 +14,7 @@ compute_arima <- function(train, h = 30, name_month = "DEC", pollutant = "PM25")
     }
   }
   df=data.frame(arima_f)
-  write.csv(df,paste0(result_folder,"arima/_" ,"ARIMA_",name_month, "_" ,pollutant ,".csv"))
+  write.csv(df,paste0(result_folder,"arima/" ,"ARIMA_",name_month, "_" ,pollutant ,".csv"))
 }
 
 for(k in seq(n_months)){
