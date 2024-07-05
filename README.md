@@ -1,7 +1,7 @@
 # STXGCN
 
 R Libraries required:
-```evmix```, ```forecast```, ``````
+```evmix```, ```forecast```, ```dfms```, ```gstar```, ```xts```
 
 Python libraries required are listed in the ```requirements.txt``` file.
 # Folders
