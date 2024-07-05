@@ -20,4 +20,10 @@ To get the results for Peaks over threshold run ```Fitting_GPD.R``` in the ```rs
 data_folder <- "C:/Users/anubhab.biswas/OneDrive - SUPSI/Documenti/"
 ```
 
+Also set a new storage folder for saving the results by changing the following code.
+
+```r
+result_folder <- paste0(data_folder,"STXGCN/results/")
+```
+
 
