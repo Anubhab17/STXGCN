@@ -14,6 +14,8 @@ Python libraries required are listed in the ```requirements.txt``` file.
 
 ```pyscripts``` conatins all the python codes that have been implemented for the model.
 
+```results``` contains the folders to the results for all the models.
+
 # Obtaining the results
 
 To get the results for Peaks over threshold run ```Fitting_GPD.R``` in the ```rscripts``` folder. Change the chunk of code for the ```data_folder``` to the location where you have cloned the repository.
