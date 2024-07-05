@@ -2,6 +2,6 @@
 
 # **Folders**
 
-- '''R
+- ```r
 data
-''' contains the cleaned data of the air pollutants along with the 
+``` contains the cleaned data of the air pollutants along with the 
