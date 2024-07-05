@@ -12,7 +12,7 @@ compute_ha <- function(train, h = 30, name_month = "DEC", pollutant = "PM25"){
     }
   }
   df=data.frame(ha)
-  write.csv(df,paste0(result_folder,"HA_",name_month, "_" ,pollutant ,".csv"))
+  write.csv(df,paste0(result_folder,"arima/_" ,"HA_",name_month, "_" ,pollutant ,".csv"))
 }
 
 for(k in seq(n_months)){
