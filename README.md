@@ -27,6 +27,10 @@ Also set a new storage folder for saving the results by changing the following c
 ```r
 result_folder <- paste0(data_folder,"STXGCN/results/")
 ```
+For obtaining the results for individual baseline models create the following sub-folders inside ```result_folder```:
+
+```ha```, ```arima```, ```dfm```, ```gstar```, ```lstm```, ```stgcn```, ```stxgcn```
+
 
 # Model Architecture
 
