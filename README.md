@@ -2,4 +2,4 @@
 
 # **Folders**
 
-```r data``` contains the cleaned data of the air pollutants along with the 
+```data``` contains the cleaned data of the air pollutants along with their locations and the Haversine matrix.
