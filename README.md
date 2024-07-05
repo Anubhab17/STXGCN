@@ -8,5 +8,6 @@
 
 # Obtaining the results
 
-To get the results for Peaks over threshold run ```Fitting_GPD``` in the ```rscripts``` folder. 
+To get the results for Peaks over threshold run ```Fitting_GPD.R``` in the ```rscripts``` folder. 
+
 
