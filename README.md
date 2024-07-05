@@ -5,6 +5,7 @@ R Libraries required:
 
 Python libraries required are listed in the ```requirements.txt``` file.
 
+```![Alt text](Model.jpg)```
 
 # Folders
 
