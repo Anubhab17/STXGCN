@@ -5,8 +5,6 @@ R Libraries required:
 
 Python libraries required are listed in the ```requirements.txt``` file.
 
-![Model](https://github.com/Anubhab17/STXGCN/assets/115042418/99ecf5a1-fbfb-4785-8b4f-2f2b657e5156)
-
 
 # Folders
 
@@ -30,4 +28,7 @@ Also set a new storage folder for saving the results by changing the following c
 result_folder <- paste0(data_folder,"STXGCN/results/")
 ```
 
+# Model Architecture
+
+![Model](https://github.com/Anubhab17/STXGCN/assets/115042418/99ecf5a1-fbfb-4785-8b4f-2f2b657e5156)
 
