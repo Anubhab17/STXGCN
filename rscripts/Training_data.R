@@ -15,3 +15,14 @@ for(k in seq(n_months)){
   training_data[[k]] = D[1:tr[k],]
 }
 
+validation_data <- list()
+
+for(k in seq(n_months)){
+  validation_data[[k]] = D[(tr[k]+1):(tr[k]+20),]
+}
+
+train_valid_comb_data <- list()
+
+for(k in seq(n_months)){
+  train_valid_comb_data[[k]] = D[1:(tr[k]+20),]
+}
