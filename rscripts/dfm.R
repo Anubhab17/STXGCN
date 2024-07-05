@@ -22,7 +22,7 @@ compute_dfm <- function(train, h = 30, r = 1, p = 10, name_month = "DEC", pollut
     }
   }
   df=data.frame(dfm_f)
-  write.csv(df,paste0(result_folder,"dfm/_" ,"DFM_",name_month, "_" ,pollutant ,".csv"))
+  write.csv(df,paste0(result_folder,"dfm/" ,"DFM_",name_month, "_" ,pollutant ,".csv"))
 }
 
 for(k in seq(n_months)){
