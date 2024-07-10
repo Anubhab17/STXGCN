@@ -11,6 +11,7 @@ compute_mase <- function(pollutant){
   names_of_months <- c("JAN", "FEB", "MAR", "APR", "MAY", "JUN", "JUL", "AUG",
                        "SEP", "OCT", "NOV", "DEC")
   tr <- c(1441,1472,1500,1531,1561,1592,1622,1653,1684,1714,1745,1775)
+  tr <- tr + 20
   D <- read.csv(paste0(data_folder,pollutant,"_Daily_Data.csv"))
   model_name <- c("HA","ARIMA","DFM","GSTAR","LSTM","STGCN","STXGCN")
   
